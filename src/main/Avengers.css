@@ -28,6 +28,7 @@
     grid-column: span 2;
     justify-content: flex-end;
     justify-self: right;
+    padding: 20px;
 }
 
 .avengers_subtitles {
@@ -37,6 +38,7 @@
     text-align: left;
     font-style: normal;
     grid-column: span 2;
+    line-height: 10px;
    
 }
 
