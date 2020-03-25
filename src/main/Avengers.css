@@ -1,0 +1,39 @@
+.avengers {
+    height: 650px;
+    width: 350px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: cornflowerblue;
+}
+
+.avengers_title {
+    font-family: 'RobotoMono';
+    src: url(../fonts/RobotoMono-Regular.ttf);
+    font-size: large;
+    text-align: left;
+    font-style: normal;
+}
+
+.avengers_subtitle {
+    font-family: 'RobotoMono';
+    src: url(../fonts/RobotoMono-Thin.ttf);
+    text-align: right;
+    font-style: normal;
+}
+
+.avengers_subtitles {
+    font-family: 'RobotoMono';
+    src: url(../fonts/RobotoMono-Thin.ttf)
+    font-size smaller;
+    text-align: left;
+    font-style: normal;
+}
+
+.text {
+    text-align: justify;
+    text-justify: auto;
+    font-size: smaller;
+    flex: 1;
+    align-self: flex-end;
+    
+}
