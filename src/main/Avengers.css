@@ -1,9 +1,13 @@
 .avengers {
-    height: 650px;
-    width: 350px;
+    height: 600px;
+    width: 290px;
     border-radius: 5px;
     overflow: hidden;
-    background-color: cornflowerblue;
+
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    grid-template-rows: 45px;
+   
 }
 
 .avengers_title {
@@ -12,6 +16,8 @@
     font-size: large;
     text-align: left;
     font-style: normal;
+    grid-column: span 2;
+    justify-self: left;
 }
 
 .avengers_subtitle {
@@ -19,6 +25,9 @@
     src: url(../fonts/RobotoMono-Thin.ttf);
     text-align: right;
     font-style: normal;
+    grid-column: span 2;
+    justify-content: flex-end;
+    justify-self: right;
 }
 
 .avengers_subtitles {
@@ -27,13 +36,15 @@
     font-size smaller;
     text-align: left;
     font-style: normal;
+    grid-column: span 2;
+   
 }
 
 .text {
-    text-align: justify;
-    text-justify: auto;
+    text-align-last: left;
     font-size: smaller;
     flex: 1;
     align-self: flex-end;
+    grid-column: span 2;
     
 }
