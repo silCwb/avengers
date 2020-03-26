@@ -1,8 +1,12 @@
 .avengers {
     height: 600px;
-    width: 290px;
+    width: 320px;
     border-radius: 5px;
     overflow: hidden;
+   background-image: 'war.png';
+    
+    border-spacing: 10em;
+    
 
     display: grid;
     grid-template-columns: repeat(2, 50%);
@@ -19,7 +23,7 @@
 .avengers_title {
     font-family: 'RobotoMono';
     src: url(../fonts/RobotoMono-Regular.ttf);
-    font-size: large;
+    font-size: 21px;
     text-align: left;
     font-style: normal;
     grid-column: span 2;
@@ -29,17 +33,18 @@
 .avengers_subtitle {
     font-family: 'RobotoMono';
     src: url(../fonts/RobotoMono-Thin.ttf);
-    text-align: left;
+    text-align: right;
     font-style: normal;
+    font-size: 18px;
     grid-column: span 1;
     justify-content: flex-end;
     justify-self: right;
-    padding: 5px;
+    padding: 3px;
 }
 
 
 .image {
-    padding: 85px;
+    margin-left: 100px;
     grid-column: span 1;
 }
 
@@ -52,15 +57,18 @@
     font-style: normal;
     grid-column: span 2;
     line-height: 5px;
+    font-size: 18px;
    
 }
 
 .text {
     text-align-last: left;
-    font-size: smaller;
+    font-size: 10.8px;
     flex: 1;
     align-self: flex-end;
     grid-column: span 2;
+    font-family: 'RobotoMono';
+    src: url(../fonts/RobotoMono-Thin.ttf)
     
 }
 
@@ -75,13 +83,15 @@ a:link, a:visited {
     border-style: groove;
     color:  midnightblue;
     border-radius: 10px;
-    height: 21px;
-    width: 191px;
+    height: 23px;
+    width: 193px;
     text-align: center;
     text-align-last: center;
     text-decoration: none;
     display: inline-block;
     grid-column: span 2;
+    font-family: 'RobotoMono';
+    src: url(../fonts/RobotoMono-Thin.ttf)
   }
 
   a:hover, a:active {
