@@ -5,9 +5,15 @@
     overflow: hidden;
 
     display: grid;
-    grid-template-columns: repeat(2, 45%);
+    grid-template-columns: repeat(2, 50%);
     grid-template-rows: 45px;
    
+}
+
+.percent{
+    
+   align-content: center;
+    
 }
 
 .avengers_title {
@@ -25,11 +31,18 @@
     src: url(../fonts/RobotoMono-Thin.ttf);
     text-align: left;
     font-style: normal;
-    grid-column: span 2;
+    grid-column: span 1;
     justify-content: flex-end;
     justify-self: right;
-    padding: 20px;
+    padding: 5px;
 }
+
+
+.image {
+    padding: 85px;
+    grid-column: span 1;
+}
+
 
 .avengers_subtitles {
     font-family: 'RobotoMono';
@@ -38,7 +51,7 @@
     text-align: left;
     font-style: normal;
     grid-column: span 2;
-    line-height: 10px;
+    line-height: 5px;
    
 }
 
@@ -51,14 +64,27 @@
     
 }
 
-.image {
-    justify-self: left;
-   
+.logo{
+    align-self: top;
+    grid-template-rows: span 1;
+    grid-column: span 3;
 }
 
-.logo {
+a:link, a:visited {
+    background-color: lightskyblue;
+    border-style: groove;
+    color:  midnightblue;
+    border-radius: 10px;
+    height: 21px;
+    width: 191px;
+    text-align: center;
+    text-align-last: center;
+    text-decoration: none;
+    display: inline-block;
     grid-column: span 2;
-    justify-self: right;
-    padding: 20px;
-    height: 61px;
-}
+  }
+
+  a:hover, a:active {
+    background-color: lightcyan;
+    color: midnightblue;
+  }
