@@ -23,7 +23,7 @@
 .avengers_subtitle {
     font-family: 'RobotoMono';
     src: url(../fonts/RobotoMono-Thin.ttf);
-    text-align: right;
+    text-align: left;
     font-style: normal;
     grid-column: span 2;
     justify-content: flex-end;
@@ -52,5 +52,13 @@
 }
 
 .image {
-    height: 12px;
+    justify-self: left;
+   
+}
+
+.logo {
+    grid-column: span 2;
+    justify-self: right;
+    padding: 20px;
+    height: 61px;
 }
