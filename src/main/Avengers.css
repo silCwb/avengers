@@ -3,10 +3,6 @@
     width: 320px;
     border-radius: 5px;
     overflow: hidden;
-   background-image: 'war.png';
-    
-    border-spacing: 10em;
-    
 
     display: grid;
     grid-template-columns: repeat(2, 50%);
